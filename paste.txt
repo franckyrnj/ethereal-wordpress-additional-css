@@ -1,0 +1,226 @@
+/* ETHEREAL CUSTOM STYLES FOR GUTENBERG */
+
+.p-4 {
+	padding: 1rem;	
+}
+
+.w-1of3 {
+	@media (min-width: 992px) {
+		width: 33.333333%;
+	}
+}
+
+
+
+.w-2of3 {
+  width: 66.666667%;
+}
+
+.w-3of3 {
+  width: 100%;
+}
+
+.w-3of4 {
+  width: 75%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.round-lg {
+  border-radius: 25px;
+}
+
+/* TYPOGRAPHY */
+
+/* .wp-block-quote {
+  font-family: "Whisper", cursive;
+	margin-bottom: 0;
+}
+
+blockquote.wp-block-quote + h2 {
+	margin-top: 0;
+}
+
+.font-secondary {
+  font-family: "Fahkwang", "Quicksand", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Fahkwang", "Quicksand", sans-serif;
+	font-weight: 500;
+} */
+
+/* BUTTONS */
+.product_type_variable, .product_type_simple,
+.single_add_to_cart_button,
+.button.alt {
+	border-radius: 25px;
+/* 	background: #2269a1; */
+}
+
+.button.alt:hover {
+	background: #2f9534;
+}
+
+/* HOME LAYOUT */
+
+.page-template-template-homepage .site-content .col-full,
+.page-template-template-homepage .entry-content {
+	min-width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+}
+
+section.storefront-product-section {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+/* HOME POSTS */
+
+.wp-block-latest-posts.is-grid {
+	justify-content: center;
+}
+
+/* SECONDARY NAV */
+
+.secondary-navigation ul.menu a:hover {
+    color: #333;
+}
+
+/* PRIMARY NAV */
+
+.primary-navigation {
+	text-transform: uppercase;
+}
+
+/* MOBILE MENU */
+
+button.menu-toggle {
+	background-color: #2269a1;
+}
+
+.main-navigation.toggled ul li a {
+	padding-top: 0.4em;
+	padding-bottom: 0;
+}
+
+.storefront-handheld-footer-bar ul li.cart .count {
+    background-color: #333;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* HEADER SEARCH */
+
+.widget_search form:not(.wp-block-search) input[type=text], .widget_search form:not(.wp-block-search) input[type=search], .widget_product_search form:not(.wp-block-search) input[type=text], .widget_product_search form:not(.wp-block-search) input[type=search] {
+    padding-left: 2.617924em;
+    border-radius: 25px;
+}
+
+/* HEADER CART */
+
+a.cart-contents,.site-header-cart .widget_shopping_cart {
+    color: #333;
+}
+
+a.cart-contents, .site-header-cart .widget_shopping_cart a {
+    color: #333;
+}
+
+a.cart-contents:hover, .site-header-cart:hover .widget_shopping_cart a:hover {
+    color: #63aae2;
+}
+
+.site-header-cart .widget_shopping_cart, .site-header .product_list_widget li .quantity {
+    color: #333;
+}
+
+a.checkout.wc-forward {
+	color: white;
+}
+
+/* SHOP FILTERS */
+
+.wc-block-components-price-slider__range-input-progress {
+	height: 6px !important;
+}
+
+/* PRODUCT SHOWCASE */
+.wc-block-grid__product-onsale, .onsale {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    background: #2269a6;
+    border: none;
+}
+
+.wc-block-grid__product-link .wc-block-grid__product-title,
+.woocommerce-loop-product__title {
+	height: 40px;
+	font-family: "Fahkwang", sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #333;
+}
+
+/* BUTTONS */
+
+.hentry .entry-content .wp-block-button .wp-block-button__link, .editor-styles-wrapper .wp-block-button .wp-block-button__link {
+    border-radius: 25px;
+}
+
+.wc-block-components-button:not(.is-link) {
+    background-color: #2269a1;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .widget a.button:hover {
+    background-color: #2269a6;
+    border-color: #e6e6e6;
+    color: white;
+}
+
+/* PAGINATION */
+
+.woocommerce-pagination .page-numbers li .page-numbers.current {
+    background-color: #2269a6;
+    color: white;
+}
+
+/* BLOG */
+
+ul.wp-block-post-template.is-layout-flow.wp-block-post-template-is-layout-flow {
+    margin-left: 0;
+}
+
+.hentry .wp-post-image {
+    border-radius: 25px;
+    height: 200px;
+    object-fit: none;
+}
+
+
+
+/* FOOTER */
+.site-footer a {
+	text-decoration: none;
+}
+
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6, .site-footer .widget .widget-title, .site-footer .widget .widgettitle {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
